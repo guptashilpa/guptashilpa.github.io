@@ -1,1 +1,1 @@
-# sgupta-sjsu.github.io
+# sgupta.github.io
