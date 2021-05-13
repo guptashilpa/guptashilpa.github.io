@@ -1,0 +1,19 @@
+[
+  {
+    "path": "posts/2021-05-13-sudoku-pygame/",
+    "title": "sudoku-pygame",
+    "description": "Experiences in building a sudoku in python with a 8th grader",
+    "author": [
+      {
+        "name": "Shilpa Gupta",
+        "url": {}
+      }
+    ],
+    "date": "2021-05-13",
+    "categories": [],
+    "contents": "\nAs part of More Active Girls in Computing I worked with an 8th grader to build a python game. After much exploring[1], my mentee settled on Sudoku. Now began the real challenge of building the game in a new language in 8 weeks with roughly 24 hours total time. We started with doing an internet search of various Sudoku solutions[2]. Quite a few focused on algorithms for solving Sudoku.\nWhile it was quite attractive to build a solver for Sudoku, we prioritized building a GUI for Sudoku and mimicking solving Sudoku as we would on paper. For that we quickly narrowed to the work of Trevor Appleton. The blog did an excellent job of walking through the various steps. We spent a few weeks going through the code and understanding the pieces. We quickly realized that a. the code only looked at a 9x9 grid with hard coded values and b. It started with a blank puzzle. So for the remaining weeks we focused on making the code generic for a 4x4 grid, adding a GUI for choosing the game, adding a few numbers to have a starter puzzle.\nThe code is documented here https://github.com/guptashilpa/sudoku-pygame\nReferences\n[1]\nhttps://www.pygame.org/docs/tut/MakeGames.html https://www.pygame.org/docs/tut/tom_games2.html#makegames-2-1 https://inventwithpython.com/makinggames.pdf\n[2]\nhttps://norvig.com/sudoku.html https://stackoverflow.com/questions/1697334/algorithm-for-solving-sudoku https://www.geeksforgeeks.org/building-and-visualizing-sudoku-game-using-pygame/ https://www.techwithtim.net/tutorials/python-programming/sudoku-solver-backtracking/ http://www.ams.org/notices/200904/rtx090400460p.pdf https://see.stanford.edu/materials/icspacs106b/H19-RecBacktrackExamples.pdf\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-05-13T14:42:29-07:00",
+    "input_file": {}
+  }
+]

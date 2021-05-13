@@ -18,6 +18,8 @@ navbar:
       menu:
         - text: "Authentic Assessment"
           href: ./aa.html
+    - text: "Blog"
+      href: ./blog.html
 output_dir: 'docs'
 output: distill::distill_article
 
