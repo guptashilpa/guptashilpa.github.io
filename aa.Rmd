@@ -1,0 +1,19 @@
+---
+title: "Authentic Assessment"
+output: 
+  distill::distill_article
+---
+
+During 2020-2021 academic year I participated in a Faculty Learning Community on Authentic Assessment. We explored definition, current practices around authentic assessment and produced the following artifacts.
+
+
+[**Final Presentation**](https://drive.google.com/file/d/13h4izP_Cr1NwDWNbYJNCnLfI-67ya-4G/view?usp=sharing)
+This presentation summarises the findings on the group's research and discussion on authentic assessment.
+
+[**Where do I start**](https://docs.google.com/document/d/1_2XwsuqF9zoU5Xu_T-zGgS2QEHk5Y-XaVWiwAlzXeu0/edit?usp=sharing)
+This document provides tips and suggestions to incorporating authentic assessment in your course
+
+
+[**Initial Faculty Survey Results**](https://ise194.shinyapps.io/aadash/)
+The research subgroup conducted survey among the SJSU faculty. This dashboard summarises early results we have observed. The response rate is less than 2% at this time. We plan to revisit the survey later in the summer. The survey follows the IRB protocols and was approved prior to dissemination. 
+

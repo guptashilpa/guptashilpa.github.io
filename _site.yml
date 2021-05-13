@@ -1,0 +1,23 @@
+name: "Shilpa Gupta's Website"
+title: "Shilpa Gupta, Ph.D."
+navbar:
+  logo:
+    image: shilpa.jpg
+  right:
+    - text: "About me"
+      href: ./index.html 
+    - text: "Classes"
+      menu:
+        - text: "ISE 194"
+          href: ./ISE194.html
+        - text: "ISE 201"
+          href: ./ISE201.html
+    - text: "MAGIC"
+      href: ./magic.html
+    - text: "Projects"
+      menu:
+        - text: "Authentic Assessment"
+          href: ./aa.html
+output_dir: 'docs'
+output: distill::distill_article
+

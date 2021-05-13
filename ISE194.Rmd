@@ -1,0 +1,37 @@
+---
+title: "ISE 194"
+output: 
+  distill::distill_article
+---
+
+**Welcome to the course ISE 194 Analytics Workshop website!**
+
+With explosion in the amount of data and computing capability, it has become imperative to have skills to turn that pieces of information into knowledge to make impactful decisions. In this course we will learn basics of data loading, wrangling, visualizing and analysis using R and Python for variety of real- world data. We will be only scratching the surface but my hope is that is enough to ignite your curiosity and drive to go forth and make impactful contributions to our society using these skills.
+
+
+## Why both R and Python
+* Being multilingual is good for cognition and job marketability
+* Both are open source with active communities
+* General Purpose vs {Build by and for Statisticians}
+* Data Munging speed vs {ease of exploratory data analysis + statistical analysis + data visualization} (Note: though the gap is closing between the two rapidly)
+* R in python code → Rpy2 and Python in R code  → reticulate
+
+
+### IDEs used
+* Jupyter Notebook via Anaconda distribution
+* RStudio
+
+
+## Libraries covered 
+### Python
+numpy, pandas, matplotlib, dash, sqlite3
+
+In limited capacity: statsmodel, scipy
+
+
+### R
+tidyverse, lubridate, ggplot2, rmarkdown, flexdashboard, sqlite, reticulate
+
+## Additional
+* git and github
+* deploy flexdashboard on shinyapps.io

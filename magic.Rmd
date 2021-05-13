@@ -1,0 +1,13 @@
+---
+title: "More Active Girls In Computing"
+output: 
+  distill::distill_article
+---
+
+One of my passion project outside of work is volunteering with [More Active Girls In Computing](https://www.getmagic.org) to encourage middle and high school girls to pursue STEM careers by 1:1 mentoring on a hands-on project by a female role model. 
+
+**We are always looking for mentors**. 
+If you are interested and want to know more, please book a time on my calendar by clicking the link below.
+
+[**Book time on Shilpa's calendar**](https://calendly.com/shilpa-gupta-sjsu/interested-in-magic)
+

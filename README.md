@@ -1,2 +1,1 @@
-# guptashilpa.github.io
-my website
+# sgupta-sjsu.github.io

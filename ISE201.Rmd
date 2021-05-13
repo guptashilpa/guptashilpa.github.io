@@ -1,0 +1,25 @@
+---
+title: "ISE 201"
+output: 
+  distill::distill_article
+---
+
+
+
+
+**Welcome to the course ISE 201 Math Foundations for Data Science website!**
+
+It is a re-imagined ISE 201 with inclusion of Linear Algebra in addition to Probability and Statistics. Linear algebra and matrix operations have increasingly become pervasive with explosion in the amount of data and  increase in computing capability in solving mathematical decision problems. In this course we cover concepts from linear algebra, probability, statistics and optimization techniques important for decision and data sciences, with motivation from real-world examples.
+
+
+** More Details Coming Soon!**
+
+In the meantime you can go through these tutorials (**in beta**)
+
+[R Introduction](https://ise194.shinyapps.io/R_Introduction_Tutorial/)
+
+[Regression Tutorial](https://ise194.shinyapps.io/Regression_Tutorial/)
+
+
+
+
