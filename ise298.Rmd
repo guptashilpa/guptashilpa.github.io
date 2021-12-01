@@ -1,0 +1,19 @@
+---
+title: "ISE 298 Student Projects"
+output: 
+  distill::distill_article
+---
+
+I have mentored the following students as part of the requirements of ISE 298
+
+### Climate Change dashboard using dash and plotly express
+
+Spring 2021 Kanika C
+
+[Blog](https://medium.com/@kanika.a.chugh/how-to-build-the-climate-change-dashboard-using-dash-and-plotly-express-library-in-python-a31939f335ad) | [Dashboard](https://explore-climate-change.herokuapp.com/) | [Github repo](https://github.com/Chugh-Kanika/Heroku-deployment)
+
+### Movie Recommendations
+
+Fall 2021 Akash C
+
+[App](https://mrs-python.herokuapp.com/) | [Github repo](https://github.com/March-2592/mrs-python)
