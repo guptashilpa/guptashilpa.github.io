@@ -1,0 +1,7 @@
+---
+title: "Reading Apprenticeship"
+output: 
+  distill::distill_article
+---
+
+During 2021-2022 academic year I participated in a Faculty Learning Community on Apprenticing Students into STEM Thinking. Will add details from the learning community in the coming months
