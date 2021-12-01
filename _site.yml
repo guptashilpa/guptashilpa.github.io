@@ -18,6 +18,8 @@ navbar:
       menu:
         - text: "Authentic Assessment"
           href: ./aa.html
+        - text: "ISE 298 Student Projects"
+          href: ./ise298.html
     - text: "Blog"
       href: ./blog.html
 output_dir: 'docs'
