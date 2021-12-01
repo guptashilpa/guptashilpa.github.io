@@ -5,56 +5,63 @@
       "title": "Authentic Assessment",
       "author": [],
       "contents": "\nDuring 2020-2021 academic year I participated in a Faculty Learning Community on Authentic Assessment. We explored definition, current practices around authentic assessment and produced the following artifacts.\nFinal Presentation This presentation summarises the findings on the group’s research and discussion on authentic assessment.\nWhere do I start This document provides tips and suggestions to incorporating authentic assessment in your course\nInitial Faculty Survey Results The research subgroup conducted survey among the SJSU faculty. This dashboard summarises early results we have observed. The response rate is less than 2% at this time. We plan to revisit the survey later in the summer. The survey follows the IRB protocols and was approved prior to dissemination.\n\n\n\n",
-      "last_modified": "2021-12-01T13:51:38-08:00"
+      "last_modified": "2021-12-01T14:30:04-08:00"
     },
     {
       "path": "blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-12-01T13:51:15-08:00"
+      "last_modified": "2021-12-01T14:30:09-08:00"
     },
     {
       "path": "index.html",
       "title": "Shilpa Gupta, Ph.D.",
       "author": [],
-      "contents": "\n\n          \n          \n          \n          \n          Shilpa Gupta, Ph.D.\n          \n          \n          About me\n          \n          \n          Classes\n           \n          ▾\n          \n          \n          ISE 194\n          ISE 201\n          \n          \n          MAGIC\n          \n          \n          Projects\n           \n          ▾\n          \n          \n          Authentic Assessment\n          Reading for Understanding\n          ISE 298 Student Projects\n          \n          \n          Blog\n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Shilpa Gupta, Ph.D.\n            \n            \n              \n                \n                    \n                      \n                        LinkedIn\n                      \n                    \n                  \n                                    \n                    \n                      \n                        GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Email\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            Shilpa has 10+ years of experience as a data scientist in various companies in the San Francisco / Bay Area where she has solved some hard business problems, done innovative work and delivered customer-impacting solutions. Currently she is an Adjunct Professor of Industrial and Systems Engineering at San Jose State University. She is passionate about statistics / data science pedagogy and volunteers her time mentoring middle/high school girls through More Active Girls In Computing. She holds a doctorate in Industrial Engineering (Applied Statistics with minor in Optimization).\n            Shilpa is a certified mental health first aider.\n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Shilpa Gupta, Ph.D.\n            \n            \n              \n                \n                                    \n                    \n                      LinkedIn\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                    \n                    \n                      Email\n                    \n                  \n                                  \n              \n            \n            \n              Shilpa has 10+ years of experience as a data scientist in various companies in the San Francisco / Bay Area where she has solved some hard business problems, done innovative work and delivered customer-impacting solutions. Currently she is an Adjunct Professor of Industrial and Systems Engineering at San Jose State University. She is passionate about statistics / data science pedagogy and volunteers her time mentoring middle/high school girls through More Active Girls In Computing. She holds a doctorate in Industrial Engineering (Applied Statistics with minor in Optimization).\n              Shilpa is a certified mental health first aider.\n            \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2021-12-01T13:51:18-08:00"
+      "contents": "\n\n          \n          \n          \n          \n          Shilpa Gupta, Ph.D.\n          \n          \n          About me\n          \n          \n          Classes\n           \n          ▾\n          \n          \n          ISE 194\n          ISE 201\n          \n          \n          MAGIC\n          \n          \n          Projects\n           \n          ▾\n          \n          \n          Authentic Assessment\n          Reading for Understanding\n          ISE 298 Student Projects\n          Knowing your Learners\n          \n          \n          Blog\n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Shilpa Gupta, Ph.D.\n            \n            \n              \n                \n                    \n                      \n                        LinkedIn\n                      \n                    \n                  \n                                    \n                    \n                      \n                        GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Email\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            Shilpa has 10+ years of experience as a data scientist in various companies in the San Francisco / Bay Area where she has solved some hard business problems, done innovative work and delivered customer-impacting solutions. Currently she is an Adjunct Professor of Industrial and Systems Engineering at San Jose State University. She is passionate about statistics / data science pedagogy and volunteers her time mentoring middle/high school girls through More Active Girls In Computing. She holds a doctorate in Industrial Engineering (Applied Statistics with minor in Optimization).\n            Shilpa is a certified mental health first aider.\n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Shilpa Gupta, Ph.D.\n            \n            \n              \n                \n                                    \n                    \n                      LinkedIn\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                    \n                    \n                      Email\n                    \n                  \n                                  \n              \n            \n            \n              Shilpa has 10+ years of experience as a data scientist in various companies in the San Francisco / Bay Area where she has solved some hard business problems, done innovative work and delivered customer-impacting solutions. Currently she is an Adjunct Professor of Industrial and Systems Engineering at San Jose State University. She is passionate about statistics / data science pedagogy and volunteers her time mentoring middle/high school girls through More Active Girls In Computing. She holds a doctorate in Industrial Engineering (Applied Statistics with minor in Optimization).\n              Shilpa is a certified mental health first aider.\n            \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-12-01T14:30:15-08:00"
     },
     {
       "path": "ISE194.html",
       "title": "ISE 194",
       "author": [],
       "contents": "\nWelcome to the course ISE 194 Analytics Workshop website!\nWith explosion in the amount of data and computing capability, it has become imperative to have skills to turn that pieces of information into knowledge to make impactful decisions. In this course we will learn basics of data loading, wrangling, visualizing and analysis using R and Python for variety of real- world data. We will be only scratching the surface but my hope is that is enough to ignite your curiosity and drive to go forth and make impactful contributions to our society using these skills.\nWhy both R and Python\nBeing multilingual is good for cognition and job marketability\nBoth are open source with active communities\nGeneral Purpose vs {Build by and for Statisticians}\nData Munging speed vs {ease of exploratory data analysis + statistical analysis + data visualization} (Note: though the gap is closing between the two rapidly)\nR in python code → Rpy2 and Python in R code → reticulate\nIDEs used\nJupyter Notebook via Anaconda distribution\nRStudio\nLibraries covered\nPython\nnumpy, pandas, matplotlib, dash, sqlite3\nIn limited capacity: statsmodel, scipy\nR\ntidyverse, lubridate, ggplot2, rmarkdown, flexdashboard, sqlite, reticulate\nAdditional\ngit and github\ndeploy flexdashboard on shinyapps.io\n\n\n\n",
-      "last_modified": "2021-12-01T13:51:47-08:00"
+      "last_modified": "2021-12-01T14:30:20-08:00"
     },
     {
       "path": "ISE201.html",
       "title": "ISE 201",
       "author": [],
       "contents": "\nWelcome to the course ISE 201 Math Foundations for Data Science website!\nIt is a re-imagined ISE 201 with inclusion of Linear Algebra in addition to Probability and Statistics. Linear algebra and matrix operations have increasingly become pervasive with explosion in the amount of data and increase in computing capability in solving mathematical decision problems. In this course we cover concepts from linear algebra, probability, statistics and optimization techniques important for decision and data sciences, with motivation from real-world examples.\n** More Details Coming Soon!**\nIn the meantime you can go through these tutorials (in beta)\nR Introduction\nRegression Tutorial\n\n\n\n",
-      "last_modified": "2021-12-01T13:51:29-08:00"
+      "last_modified": "2021-12-01T14:30:25-08:00"
     },
     {
       "path": "ise298.html",
       "title": "ISE 298 Student Projects",
       "author": [],
       "contents": "\nI have mentored the following students as part of the requirements of ISE 298\nClimate Change dashboard using dash and plotly express\nSpring 2021 Kanika C\nBlog | Dashboard | Github repo\nMovie Recommendations\nFall 2021 Akash C\nApp |Github repo\nInterested in doing a ISE 298 project?\nContact me via this google form\n\n\n\n",
-      "last_modified": "2021-12-01T13:51:01-08:00"
+      "last_modified": "2021-12-01T14:30:31-08:00"
     },
     {
       "path": "magic.html",
       "title": "More Active Girls In Computing",
       "author": [],
       "contents": "\nOne of my passion project outside of work is volunteering with More Active Girls In Computing to encourage middle and high school girls to pursue STEM careers by 1:1 mentoring on a hands-on project by a female role model.\nWe are always looking for mentors. If you are interested and want to know more, please book a time on my calendar by clicking the link below.\nBook time on Shilpa’s calendar\n\n\n\n",
-      "last_modified": "2021-12-01T13:51:10-08:00"
+      "last_modified": "2021-12-01T14:30:36-08:00"
     },
     {
       "path": "ra.html",
       "title": "Reading Apprenticeship",
       "author": [],
       "contents": "\nDuring 2021-2022 academic year I participated in a Faculty Learning Community on Apprenticing Students into STEM Thinking. Will add details from the learning community in the coming months\n\n\n\n",
-      "last_modified": "2021-12-01T13:51:26-08:00"
+      "last_modified": "2021-12-01T14:30:42-08:00"
+    },
+    {
+      "path": "rcd.html",
+      "title": "Knowing your Learners",
+      "author": [],
+      "contents": "\nAs part of the SJSU Resilient Course Design program, I contributed some approaches to understand the learners in our class better and some strategies for how do they learn best. This was open to all SJSU faculty during Summer 2021 and Winter 2021. Here are some artifacts created during that process.\nIntro | Knowing your Learner | Start of Semester Survey | Midpoint reflection template | Learner Personas | Slides\n\n\n\nYou can view the whole course here\n\n\n\n",
+      "last_modified": "2021-12-01T14:30:50-08:00"
     }
   ],
   "collections": ["posts/posts.json"]

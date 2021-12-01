@@ -22,6 +22,8 @@ navbar:
           href: ./ra.html
         - text: "ISE 298 Student Projects"
           href: ./ise298.html
+        - text: "Knowing your Learners"
+          href: ./rcd.html
     - text: "Blog"
       href: ./blog.html
 output_dir: 'docs'
