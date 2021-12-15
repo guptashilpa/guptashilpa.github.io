@@ -12,7 +12,7 @@ output:
 It is a re-imagined ISE 201 with inclusion of Linear Algebra in addition to Probability and Statistics. Linear algebra and matrix operations have increasingly become pervasive with explosion in the amount of data and  increase in computing capability in solving mathematical decision problems. In this course we cover concepts from linear algebra, probability, statistics and optimization techniques important for decision and data sciences, with motivation from real-world examples.
 
 
-** More Details Coming Soon!**
+**More Details Coming Soon!**
 
 In the meantime you can go through these tutorials (**in beta**)
 
@@ -21,5 +21,6 @@ In the meantime you can go through these tutorials (**in beta**)
 [Regression Tutorial](https://ise194.shinyapps.io/Regression_Tutorial/)
 
 
-
-
+### Student Projects 
+[Link]( https://priyanka-moorthy.github.io/college-majors.github.io/) | [Link](https://github.com/pauljmello/Wine-Data-Analysis/tree/6c4476382ca9b2f191d96a1615def25af964d83f) |
+[Link](https://sockandsandal.github.io/BechdelAnalysis/)

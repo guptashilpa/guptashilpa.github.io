@@ -1,0 +1,11 @@
+---
+title: "Mental Health Resources"
+output: 
+  distill::distill_article
+---
+
+"It's OK to not be OK" 
+
+I am trained as a Mental Health First Aid. I am not a substitute for a licensed counselor. I can listen without judgment and connect you with helpful resources to promote your health and success. You can email me or find a time on my calendar
+
+[Mental Health Resources](https://www.mentalhealthfirstaid.org/mental-health-resources/)
