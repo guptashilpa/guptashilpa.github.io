@@ -1,0 +1,15 @@
+---
+title: "ISE 244"
+output: 
+  distill::distill_article
+---
+
+
+
+
+**Welcome to the course ISE 244 AI Tools and Practice for Systems Engineering website!**
+
+This course focuses on Artificial Intelligence software tools useful for industrial and systems engineering. It emphasizes clear understanding of the mathematics behind them, what tools to use in which conditions, and how to interpret and use the results. Prerequisite: Graduate standing; ISE 201 (or Equivalent) or instructor consent. 3 Units.
+
+
+**More Details Coming Soon!**
