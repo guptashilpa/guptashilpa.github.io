@@ -14,6 +14,8 @@ navbar:
           href: ./ISE201.html
         - text: "ISE 244"
           href: ./ISE244.html
+        - text: "ISE 202"
+          href: ./ISE202.html
     - text: "MAGIC"
       href: ./magic.html
     - text: "Projects"
