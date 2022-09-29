@@ -11,4 +11,8 @@ output:
 
 Review of statistical inference and tests of hypotheses. Introduction to analysis of variance and covariance. Theory and applications of experimental designs for engineering problems. Random and systematic designs. Randomized blocks. Latin squares. Factorial and fractional factorial designs. Taguchi methods. Prerequisite: ISE 130.  
 
+[Chapter 7 Examples](./doe/DOE_chapter7_examples.html)
+
+[Chapter 8 Examples](./doe/DOE_chapter8_examples.html)
+
 **More Details Coming Soon!**

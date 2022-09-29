@@ -1,0 +1,115 @@
+---
+title: "Response Surface Workbook"
+author: "Shilpa Gupta"
+date: "2022-08-30"
+output: 
+  html_document:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libs, message=FALSE}
+library(tidyverse)
+library(DoE.base)
+library(FrF2)
+library(rsm)
+library(desirability)
+```
+
+### Example 11.1
+
+```{r}
+library(tidyverse)
+indata <- read_csv("data/DOExp_11_2.csv")
+head(indata)
+indata2 <- slice(indata, 1:(n()-4))
+```
+
+
+```{r}
+library(rsm)
+rsm.fit <- rsm(yield ~ FO(x1, x2) + TWI(x1, x2), data = indata2)
+summary(rsm.fit)
+anova(rsm.fit)
+```
+
+Notice the Lack of Fit statistically significant indicating perhaps a higher order term is would be appropriate. So a sequential experimentation was conducted and axial points added. 
+
+```{r}
+library(rsm)
+rsm.fit <- rsm(yield ~ FO(x1, x2) + TWI(x1, x2) + SO(x1, x2), data = indata)
+summary(rsm.fit)
+anova(rsm.fit)
+```
+
+
+```{r}
+par(mfrow=c(1,3))
+image(rsm.fit, x1 ~ x2)
+contour(rsm.fit, x1 ~ x2)
+persp(rsm.fit, x1 ~ x2, zlab = "yield")
+```
+
+```{r}
+b <- c(0.995 , 0.515)
+B <- matrix(c(-1.376, 0.125, 0.125, -1.001), nrow = 2, ncol=2, byrow= TRUE)
+
+x_s <- -0.5 * solve(B)%*%b
+x_s
+```
+
+```{r}
+library(rsm)
+vis.fit <- rsm(viscosity ~ FO(x1, x2) + TWI(x1, x2) + SO(x1, x2), data = indata)
+summary(vis.fit)
+anova(vis.fit)
+```
+
+```{r}
+par(mfrow=c(1,3))
+image(vis.fit, x1 ~ x2)
+contour(vis.fit, x1 ~ x2)
+persp(vis.fit, x1 ~ x2, zlab = "yield")
+```
+
+
+```{r}
+library(rsm)
+mwt.fit <- rsm(molecular_weight ~ FO(x1, x2) , data = indata)
+summary(mwt.fit)
+anova(mwt.fit)
+```
+
+```{r}
+par(mfrow=c(1,3))
+image(mwt.fit, x1 ~ x2)
+contour(mwt.fit, x1 ~ x2)
+persp(mwt.fit, x1 ~ x2, zlab = "yield")
+```
+
+
+```{r}
+yieldpred <- function(x) -1430.52 + 7.8*x[1] + 13.27 *x[2] -0.055 * x[1]^2 - 0.040 * x[2]^2  + 0.01 * x[1] * x[2]
+
+vispred <- function(x) -9030.74 + 13.39 * x[1] + 97.708 * x[2] - 0.0275 * x[1]^2 - 0.2675 * x[2]^2 - 0.05 * x[1] * x[2]
+
+mwtpred <- function(x) -6308.8 + 41.025 * x[1] +35.473 * x[2]
+
+yieldD <- dMax(78.5, 80)
+visD <- dMax(62, 68)
+mwtD <- dMin(3200, 3400)
+
+predOutcomes <- c(yieldpred(c(85,170.5)), vispred(c(85,170.5)), mwtpred(c(85,170.5)))
+print(predOutcomes)
+```
+
+```{r}
+predict(yieldD, predOutcomes[1])
+predict(visD, predOutcomes[2])
+predict(mwtD, predOutcomes[3])
+dOverall(yieldD, visD, mwtD)
+#predict(dOverall(yieldD, visD, mwtD), predOutcomes)
+```
