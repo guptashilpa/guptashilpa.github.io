@@ -1,0 +1,255 @@
+---
+title: "Analyzing Fractional Factorials Workbook"
+author: "Shilpa Gupta"
+date: "2022-08-23"
+output: 
+  html_document:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libs, message=FALSE}
+library(tidyverse)
+library(DoE.base)
+library(FrF2)
+library(rsm)
+```
+
+### Problem 6.24, 8.4, 8.5
+
+> An experiment was run in a semiconductor fabrication plant in an effort to increase yield. Five factors, each at two levels, were studied. The factors (and levels) were 
+A = aperture setting (small, large), B = exposure time (20% below nominal, 20% above nominal), C = development time (30 and 45 s), D = mask dimension (small, large), and E = etch time (14.5 and 15.5 min). The unreplicated $2^5$ design shown below was run. 
+
+Set up the design matrix:
+
+```{r}
+design_matrix <- FrF2(nruns = 32 , nfactors = 5, default.levels = c(-1, 1), factor.names = c("A", "B", "C", "D", "E"), randomize = FALSE, replications = 1)
+summary(design_matrix)
+```
+
+The results are as follows:
+```{r}
+yield <- c(7, 9, 34, 55, 16, 20, 40, 60, 8, 10, 32, 50, 18, 21, 44, 61, 8, 12, 35, 52, 15, 22, 45, 65, 6, 10, 30, 53, 15, 20, 41, 63)
+design_resp <- add.response(design_matrix, yield)
+head(design_resp)
+```
+
+> Construct a normal probability plot of the effect estimates. Which effects appear to be large?
+
+Normal probability plots and half normal probability plots
+```{r}
+DanielPlot(design_resp, code=TRUE, alpha =0.1)
+DanielPlot(design_resp, code=TRUE, alpha =0.1, half = TRUE)
+```
+
+**Please enter your comments here**
+
+
+</br>
+
+> Conduct an analysis of variance to confirm your findings for part
+
+```{r}
+fit <- aov(yield ~ A +B +C + A:B , data = design_resp)
+summary(fit)
+```
+
+
+**Please enter your comments here**
+
+
+
+> Write down the regression model relating yield to the significant process variables.
+
+```{r}
+fit <- lm(yield ~ A+B+C+A:B , data = design_resp)
+summary(fit)
+```
+
+
+
+**Write down the regression equation here**
+
+
+
+> Plot the residuals on normal probability paper. Is the plot satisfactory?
+
+```{r}
+#names(fit)
+ggplot(data = fit, aes(sample = fit$residuals)) + stat_qq()+ stat_qq_line()
+```
+
+**Please enter your comments here**
+
+> Plot the residuals versus the predicted yields and versus each of the five factors. Comment on the plots.
+
+```{r}
+full_mat <- design_resp
+full_mat$resids <- fit$residuals
+full_mat$fitted_values <- fit$fitted.values
+
+ggplot(data = full_mat, aes(y = full_mat$resids, x = full_mat$A)) + geom_point() + labs(title = "Residuals vs Aperture", x = "Aperture", y="Residuals")
+```
+**Please plot all the variables**
+
+
+**Please enter your comments here**
+</br>
+
+> Interpret any significant interactions.
+
+Main Effects
+
+```{r}
+MEPlot(design_resp)
+```
+
+Interaction Plots
+
+```{r}
+IAPlot(design_resp)
+```
+
+**Please enter your comments here**
+Factor A does not have as large an effect when B is at its low level as it does when B is at its high level.
+
+> What are your recommendations regarding process operating conditions?
+
+**Please enter your comments here**
+To achieve the highest yield, run B at the high level, A at the high level, and C at the high level.
+
+> Project the $2^5$ design in this problem into a $2^k$ design in the important factors. Sketch the design and show the average and range of yields at each run. Does this sketch aid in interpreting the results of this experiment?
+
+**In Class exercise**
+
+</br>
+
+
+> Suppose that the experimenter had run four center points in addition to the 32 trials in the original experiment. The yields obtained at the center point runs were 68, 74, 76, and 70.
+
+```{r}
+design_matrix <- add.center(design_matrix, 4)
+```
+
+```{r}
+yield <- c(7, 9, 34, 55, 16, 20, 40, 60, 8, 10, 32, 50, 18, 21, 44, 61, 8, 12, 35, 52, 15, 22, 45, 65, 6, 10, 30, 53, 15, 20, 41, 63, 68, 74, 76, 70)
+design_resp <- add.response(design_matrix, yield)
+head(design_resp)
+```
+
+> Reanalyze the experiment, including a test for pure quadratic curvature.
+
+```{r}
+fit <- lm(yield ~ A + B +C + A:B+ iscube(design_resp)  , data = design_resp)
+anova(fit)
+summary(fit)
+```
+
+Next step would be to add axial points for factors B and C along with four more center points to fit a second‐order model and satisfy blocking concerns.
+
+> Suppose that only eight runs could be made in this process. Set up an appropriate $2^{5−2}$ design and use generators D = AB and E = AC. Estimate the factor effects. What conclusions can you draw?
+
+```{r}
+dm <- FrF2(nruns = 8 , nfactors = 5, default.levels = c(-1, 1), factor.names = c("A", "B", "C", "D", "E"), randomize = FALSE, replications = 1, generators = c("AB", "AC"))
+summary(dm)
+```
+
+```{r}
+yield <- c(6, 9, 35, 50, 18, 22, 40, 63)
+frdesign <- add.response(dm, yield)
+head(frdesign)
+```
+```{r}
+DanielPlot(frdesign, code=TRUE, alpha =0.5, half = TRUE)
+```
+
+```{r}
+fit <- lm(yield ~ A + B +C + D  , data = frdesign)
+anova(fit)
+summary(fit)
+```
+
+
+> What additional runs would be required to identify the factor effects that are of interest? What are the alias relationships in the combined design?
+
+
+```{r}
+dm2 <- FrF2(nruns = 8 , nfactors = 5, default.levels = c(-1, 1), factor.names = c("A", "B", "C", "D", "E"), randomize = FALSE, replications = 1, generators = c("-AB", "-AC"))
+summary(dm2)
+```
+
+```{r}
+yield <- c(7, 10, 32, 52, 15, 21, 41, 60)
+foldover_design <- add.response(dm2, yield)
+head(foldover_design)
+
+```
+
+```{r}
+frdesign$block <- rep(1, dim(frdesign)[1])
+
+foldover_design$block <- rep(2, dim(foldover_design)[1])
+
+combdata <- rbind(frdesign, foldover_design)
+```
+
+```{r}
+DanielPlot(combdata, code=TRUE, alpha =0.5, half = TRUE)
+```
+
+```{r}
+fit <- lm(yield ~ A + B +C + E + A:B + A:C + B:E + B:C + block  , data = combdata)
+anova(fit)
+summary(fit)
+```
+
+
+Interaction Plots
+
+```{r}
+IAPlot(combdata)
+```
+
+-------------------
+
+### Example 11.1
+
+```{r}
+library(tidyverse)
+indata <- read_csv("data/DOExp_11_2.csv")
+head(indata)
+indata2 <- slice(indata, 1:(n()-4))
+```
+
+
+```{r}
+library(rsm)
+rsm.fit <- rsm(yield ~ FO(x1, x2) + TWI(x1, x2) + SO(x1, x2), data = indata2)
+summary(rsm.fit)
+anova(rsm.fit)
+```
+
+
+```{r}
+par(mfrow=c(1,3))
+image(rsm.fit, x1 ~ x2)
+contour(rsm.fit, x1 ~ x2)
+persp(rsm.fit, x1 ~ x2, zlab = "yield")
+```
+
+
+```{r, echo=FALSE, eval=FALSE}
+design_matrix <- FrF2(nruns = 4 , nfactors = 2, factor.names = list(time = c(30,40), temp = c(150, 160)), randomize = FALSE, replications = 1)
+design_matrix <- add.center(design_matrix, 5)
+summary(design_matrix)
+yield <- c(39.3, 40.9, 40.0, 41.5, 40.3, 40.5, 40.7, 40.2, 40.6)
+respsfd <- add.response(design_matrix, yield)
+respsfd
+
+cvar <- coded.data(respsfd, x1 ~ (time - 35)/5, x2 ~ (temp - 155 )/5)
+cvar
+as.data.frame(cvar)
+```
