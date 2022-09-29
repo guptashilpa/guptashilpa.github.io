@@ -5,84 +5,84 @@
       "title": "Authentic Assessment",
       "author": [],
       "contents": "\nDuring 2020-2021 academic year I participated in a Faculty Learning\nCommunity on Authentic Assessment. We explored definition, current\npractices around authentic assessment and produced the following\nartifacts.\nFinal\nPresentation This presentation summarises the findings on\nthe group’s research and discussion on authentic assessment.\nWhere\ndo I start This document provides tips and suggestions to\nincorporating authentic assessment in your course\nInitial Faculty\nSurvey Results The research subgroup conducted survey among\nthe SJSU faculty. This dashboard summarises early results we have\nobserved. The response rate is less than 2% at this time. We plan to\nrevisit the survey later in the summer. The survey follows the IRB\nprotocols and was approved prior to dissemination.\n\n\n\n",
-      "last_modified": "2022-09-26T10:25:12-07:00"
+      "last_modified": "2022-09-29T12:27:50-07:00"
     },
     {
       "path": "blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-09-26T10:25:21-07:00"
+      "last_modified": "2022-09-29T12:28:00-07:00"
     },
     {
       "path": "index.html",
       "title": "Shilpa Gupta, Ph.D.",
       "author": [],
       "contents": "\n\n          \n          \n          \n          \n          Shilpa Gupta, Ph.D.\n          \n          \n          About me\n          \n          \n          Classes\n           \n          ▾\n          \n          \n          ISE 194\n          ISE 201\n          ISE 244\n          ISE 202\n          \n          \n          MAGIC\n          \n          \n          Projects\n           \n          ▾\n          \n          \n          Authentic Assessment\n          Reading for Understanding\n          ISE 298 Student Projects\n          Knowing your Learners\n          \n          \n          Blog\n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Shilpa Gupta, Ph.D.\n            \n            \n              \n                \n                    \n                      \n                        LinkedIn\n                      \n                    \n                  \n                                    \n                    \n                      \n                        GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Email\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            Shilpa has 10+ years of experience as a data scientist in\n            various companies in the San Francisco / Bay Area where she\n            has solved some hard business problems, done innovative work\n            and delivered customer-impacting solutions. Currently she is\n            an Adjunct Professor of Industrial and Systems Engineering\n            at San Jose State University. She is passionate about\n            statistics / data science pedagogy and volunteers her time\n            mentoring middle/high school girls through More Active Girls\n            In Computing. She holds a doctorate in Industrial\n            Engineering (Applied Statistics with minor in\n            Optimization).\n            Shilpa is a certified Mental Health First Aider.\n            Courses Taught:\n            ISE 194\n            ISE 201\n            ISE 244\n            ISE 202\n            Welcome to my digital\n            garden, where i explore my adventures in pedagogy.\n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Shilpa Gupta, Ph.D.\n            \n            \n              \n                \n                                    \n                    \n                      LinkedIn\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                    \n                    \n                      Email\n                    \n                  \n                                  \n              \n            \n            \n              Shilpa has 10+ years of experience as a data scientist\n              in various companies in the San Francisco / Bay Area where\n              she has solved some hard business problems, done\n              innovative work and delivered customer-impacting\n              solutions. Currently she is an Adjunct Professor of\n              Industrial and Systems Engineering at San Jose State\n              University. She is passionate about statistics / data\n              science pedagogy and volunteers her time mentoring\n              middle/high school girls through More Active Girls In\n              Computing. She holds a doctorate in Industrial Engineering\n              (Applied Statistics with minor in Optimization).\n              Shilpa is a certified Mental Health First Aider.\n              Courses Taught:\n              ISE 194\n              ISE 201\n              ISE 244\n              ISE 202\n              Welcome to my digital\n              garden, where i explore my adventures in pedagogy.\n            \n        \n      \n    \n\n    \n    \n    \n      © Copyright 2021 Shilpa Gupta. All rights reserved\n      \n      \n\n  \n  ",
-      "last_modified": "2022-09-26T10:22:42-07:00"
+      "last_modified": "2022-09-29T12:27:17-07:00"
     },
     {
       "path": "ISE194.html",
       "title": "ISE 194",
       "author": [],
       "contents": "\nWelcome to the course ISE 194 Analytics Workshop\nwebsite!\nWith explosion in the amount of data and computing capability, it has\nbecome imperative to have skills to turn that pieces of information into\nknowledge to make impactful decisions. In this course we will learn\nbasics of data loading, wrangling, visualizing and analysis using R and\nPython for variety of real- world data. We will be only scratching the\nsurface but my hope is that is enough to ignite your curiosity and drive\nto go forth and make impactful contributions to our society using these\nskills.\nWhy both R and Python\nBeing multilingual is good for cognition and job marketability\nBoth are open source with active communities\nGeneral Purpose vs {Build by and for Statisticians}\nData Munging speed vs {ease of exploratory data analysis +\nstatistical analysis + data visualization} (Note: though the gap is\nclosing between the two rapidly)\nR in python code → Rpy2 and Python in R code → reticulate\nIDEs used\nJupyter Notebook via Anaconda distribution\nRStudio\nLibraries covered\nPython\nnumpy, pandas, matplotlib, dash, sqlite3\nIn limited capacity: statsmodel, scipy\nR\ntidyverse, lubridate, ggplot2, rmarkdown, flexdashboard, sqlite,\nreticulate\nAdditional\ngit and github\ndeploy flexdashboard on shinyapps.io\n\n\n\n",
-      "last_modified": "2022-09-26T10:18:23-07:00"
+      "last_modified": "2022-09-29T12:28:12-07:00"
     },
     {
       "path": "ISE201.html",
       "title": "ISE 201",
       "author": [],
       "contents": "\nWelcome to the course ISE 201 Math Foundations for Data\nScience website!\nIt is a re-imagined ISE 201 with inclusion of Linear Algebra in\naddition to Probability and Statistics. Linear algebra and matrix\noperations have increasingly become pervasive with explosion in the\namount of data and increase in computing capability in solving\nmathematical decision problems. In this course we cover concepts from\nlinear algebra, probability, statistics and optimization techniques\nimportant for decision and data sciences, with motivation from\nreal-world examples.\nMore Details Coming Soon!\nIn the meantime you can go through these tutorials (in\nbeta)\nR\nIntroduction\nRegression\nTutorial\nStudent Projects\nLink\n| Link\n| Link Link\n\n\n\n",
-      "last_modified": "2022-09-26T10:18:36-07:00"
+      "last_modified": "2022-09-29T12:28:32-07:00"
     },
     {
       "path": "ISE202.html",
       "title": "ISE 202",
       "author": [],
       "contents": "\nWelcome to the course ISE 202 Design and Analysis of\nEngineering Experiments website!\nReview of statistical inference and tests of hypotheses. Introduction\nto analysis of variance and covariance. Theory and applications of\nexperimental designs for engineering problems. Random and systematic\ndesigns. Randomized blocks. Latin squares. Factorial and fractional\nfactorial designs. Taguchi methods. Prerequisite: ISE 130.\nMore Details Coming Soon!\n\n\n\n",
-      "last_modified": "2022-09-26T10:19:50-07:00"
+      "last_modified": "2022-09-29T12:28:47-07:00"
     },
     {
       "path": "ISE244.html",
       "title": "ISE 244",
       "author": [],
       "contents": "\nWelcome to the course ISE 244 AI Tools and Practice for\nSystems Engineering website!\nThis course focuses on Artificial Intelligence software tools useful\nfor industrial and systems engineering. It emphasizes clear\nunderstanding of the mathematics behind them, what tools to use in which\nconditions, and how to interpret and use the results. Prerequisite:\nGraduate standing; ISE 201 (or Equivalent) or instructor consent. 3\nUnits.\nMore Details Coming Soon!\n\n\n\n",
-      "last_modified": "2022-09-26T10:19:06-07:00"
+      "last_modified": "2022-09-29T12:28:54-07:00"
     },
     {
       "path": "ise298.html",
       "title": "ISE 298 Student Projects",
       "author": [],
       "contents": "\nI have mentored the following students as part of the requirements of\nISE 298\nClimate\nChange dashboard using dash and plotly express\nSpring 2021 Kanika C\nBlog\n| Dashboard\n| Github\nrepo\nMovie Recommendations\nFall 2021 Akash C\nApp |Github repo\nInterested in doing a ISE\n298 project?\nContact me via this\ngoogle form\n\n\n\n",
-      "last_modified": "2022-09-26T10:19:14-07:00"
+      "last_modified": "2022-09-29T12:29:02-07:00"
     },
     {
       "path": "magic.html",
       "title": "More Active Girls In Computing",
       "author": [],
       "contents": "\nOne of my passion project outside of work is volunteering with More Active Girls In Computing to\nencourage middle and high school girls to pursue STEM careers by 1:1\nmentoring on a hands-on project by a female role model.\nWe are always looking for mentors. If you are\ninterested and want to know more, please book a time on my calendar by\nclicking the link below.\nBook\ntime on Shilpa’s calendar\n\n\n\n",
-      "last_modified": "2022-09-26T10:19:24-07:00"
+      "last_modified": "2022-09-29T12:29:15-07:00"
     },
     {
       "path": "mhfa.html",
       "title": "Mental Health Resources",
       "author": [],
       "contents": "\n“It’s OK to not be OK”\nI am trained as a Mental Health First Aid. I am not a substitute for\na licensed counselor. I can listen without judgment and connect you with\nhelpful resources to promote your health and success. You can email me\nor find a time on my calendar\nMental\nHealth Resources\n\n\n\n",
-      "last_modified": "2022-09-26T10:19:33-07:00"
+      "last_modified": "2022-09-29T12:29:25-07:00"
     },
     {
       "path": "ra.html",
       "title": "Reading Apprenticeship",
       "author": [],
       "contents": "\nDuring 2021-2022 academic year I participated in a Faculty Learning\nCommunity on Apprenticing Students into STEM Thinking. Will add details\nfrom the learning community in the coming months\n\n\n\n",
-      "last_modified": "2022-09-26T10:19:42-07:00"
+      "last_modified": "2022-09-29T12:29:36-07:00"
     },
     {
       "path": "rcd.html",
       "title": "Knowing your Learners",
       "author": [],
       "contents": "\nAs part of the SJSU Resilient Course Design program, I contributed\nsome approaches to understand the learners in our class better and some\nstrategies for how do they learn best. This was open to all SJSU faculty\nduring Summer 2021 and Winter 2021. Here are some artifacts created\nduring that process.\nIntro | Knowing your Learner | Start\nof Semester Survey | Midpoint\nreflection template | Learner\nPersonas | Slides\n\n\n\nYou can view the whole course here\n\n\n\n",
-      "last_modified": "2022-09-26T10:25:00-07:00"
+      "last_modified": "2022-09-29T12:29:46-07:00"
     }
   ],
   "collections": ["posts/posts.json"]
