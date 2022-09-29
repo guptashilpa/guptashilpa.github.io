@@ -1,0 +1,83 @@
+---
+title: "Takeaways from AA"
+description: |
+  A short description of the post.
+author:
+  - name: Shilpa Gupta
+    url: {}
+date: 2021-07-01
+draft: true
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Takeawys from a year of learning about authentic assessment
+
+<a statement about need for assessments in class >
+Assessments are crucial part of the learning process. They can serve as a compass in achieving the goals as a learner. But assessing understanding of a learner is a complex task albeit the most important r. In fact decoupling it from performance on an on imperfect designed assessment can be hard to accomplish . In this article the authors not only argues that it is complex but also 
+
+https://teaching.berkeley.edu/resources/learn/what-learning
+
+Wiggins’ (1998) criteria for Authentic Assessment:
+It’s realistic.
+It requires judgement and innovation.
+It asks the student to “do” the subject.
+It replicates or simulates the contexts in which adults are “tested” in the workplace, in civic life, and in personal life.
+It assesses the student’s ability to efficiently and effectively use a repertoire of knowledge and skill to negotiate a complex task.
+It allows appropriate opportunities to rehearse, practice, consult resources, and get feedback on and refine performances and products.
+
+Ref https://docs.google.com/document/d/1_2XwsuqF9zoU5Xu_T-zGgS2QEHk5Y-XaVWiwAlzXeu0/edit
+
+Types of assessments:
+formative and summative
+
+What is authentic assessment?
+linking to transfer skills
+What skills are required in the industry
+
+understand unstructured data, strong communication, and analytical skills and intellectual curiosity
+
+https://infinum.com/the-capsized-eight/most-in-demand-tech-jobs-in-2019
+
+
+https://www.udacity.com/blog/2020/05/are-data-science-jobs-really-hot.html
+
+
+What does authentic learning look like in the classes I teach?
+
+
+"Specifically, what does a student do who ‘really understands’ which he does not do when he does not understand?"
+
+
+### Key Takeaways for the courses I teach
+
+audience --> building a datascience portfolio
+
+Transfer goals
+
+discrete learning objectives versus performance goals
+
+exams became formative assessment as homework problems and quizzes
+
+project: 
+::why individual projects versus group projects
+::unstructured nature of the project
+:: asking questions
+:: framing hypothesis tests
+
+
+### Learning Community
+Topics covered. books read. other reading
+
+what was not covered was the "collaboration aspect" --> implement as peer reviewer, citizenship 
+
+
+Understanding by Design, Expanded 2nd Edition (9780131950849): Grant Wiggins, Jay McTighe: Books. Web. 07 May 2012. 2In fact, in Stage 2 of UbD design process, the task is to “determine what constitutes acceptable evidence of competency in the outcomes and results (assessment),” deftly avoiding the term “understanding” altogether.
+
+
+

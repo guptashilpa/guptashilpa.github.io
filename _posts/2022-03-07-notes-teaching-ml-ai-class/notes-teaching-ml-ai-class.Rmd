@@ -1,0 +1,62 @@
+---
+title: "notes-teaching-ml-ai-class"
+description: |
+  This post chronicles the thinking and delivery of AI for systems engineering class .
+author:
+  - name: Shilpa Gupta
+    url: {}
+date: 2022-03-07
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Notes on teaching AI Practices and Tools for Systems Engineering
+
+After teaching math foundations for data science I was tasked with teaching AI practices . The course was intended for students pursuing masters in industrial and systems engineering
+What is system's engineering?
+
+
+# What is AI? Differeence between Machine learning, Deep Learning
+
+
+The challenge was how to organize the course to cater to the needs of the students
+
+
+# Who are my learners?
+
+As briefly mentioned my learners are . Their motivations are to secure a job as a AI engineer. 
+
+The bias to have hands on application of methods on data
+
+What do my learners need from the class, to have the confidence to fit a model using standard libraries and evaluate the model
+
+# Lets start with assessments
+
+1. Data and analysis
+
+2. Read technical literature
+
+3. Write persuasive technical write up
+
+Formative assessments are pieces of the above three to practice. separately. 
+
+# What do i hope they take away from the class
+
+1. Experimentation
+There is no best method, it is dependent on the context. So how do students develop their experimentation approach?
+
+2. The process of building a model
+
+
+3. How to think about exceptions
+
+# How did it go?
+
+# Reflection
+

@@ -1,0 +1,19 @@
+---
+title: "STEM Learning Community Takeaways"
+description: |
+  A short description of the post.
+author:
+  - name: Shilpa Gupta
+    url: {}
+date: 2021-11-01
+draft: true
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+Space for me to reflect on the experience of being part of the STEM community

@@ -12,18 +12,8 @@ site: distill::distill_website
 output: postcards::trestles
 ---
  
-Shilpa has 10+ years of experience as a data scientist in various companies in the San Francisco / Bay Area where she has solved some hard business problems, done innovative work and delivered customer-impacting solutions. Currently she is an Adjunct Professor of Industrial and Systems Engineering at San Jose State University. She is passionate about statistics / data science pedagogy and volunteers her time mentoring middle/high school girls through More Active Girls In Computing. She holds a doctorate in Industrial Engineering (Applied Statistics with minor in Optimization).
+Engineers are problem solvers. I teach data science skills to engineers.
 
 Shilpa is a certified Mental Health First Aider. 
 
-Courses Taught:
-
-ISE 194
-
-ISE 201
-
-ISE 244
-
-ISE 202
-
-Welcome to my [digital garden](https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/), where i explore my adventures in pedagogy.
+Welcome to my [digital garden](https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/), where i explore my adventures in data science pedagogy.

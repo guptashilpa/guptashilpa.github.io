@@ -4,7 +4,7 @@ navbar:
   logo:
     image: shilpa.jpg
   right:
-    - text: "About me"
+    - text: "Welcome"
       href: ./index.html 
     - text: "Classes"
       menu:
@@ -16,8 +16,6 @@ navbar:
           href: ./ISE244.html
         - text: "ISE 202"
           href: ./ISE202.html
-    - text: "MAGIC"
-      href: ./magic.html
     - text: "Projects"
       menu:
         - text: "Authentic Assessment"
@@ -28,6 +26,10 @@ navbar:
           href: ./ise298.html
         - text: "Knowing your Learners"
           href: ./rcd.html
+        - text: "MAGIC"
+          href: ./magic.html
+    - text: "About me"
+      heref: ./aboutme.html
     - text: "Blog"
       href: ./blog.html
 output_dir: 'docs'

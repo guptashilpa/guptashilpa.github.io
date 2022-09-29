@@ -1,0 +1,25 @@
+---
+title: "teaching-mixed-experience-levels"
+description: |
+  A short description of the post.
+author:
+  - name: Shilpa Gupta
+    url: {}
+date: 2021-11-18
+draft: true
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Teaching a class with mixed background and experience level folks. What challenges have been encountered with mixed background and with mixed experience (industry experience or not)
+
+How incorporating project created different mastery levels in the class.
+
+???
+https://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_1
