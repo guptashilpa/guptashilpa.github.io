@@ -1,0 +1,22 @@
+---
+title: "Encouraging Students to Read"
+description: |
+  Using Reading Apprenticeship framework to encourage students to deepen their learning by reading
+author:
+  - name: Shilpa Gupta, Ph.D.
+    url: {https://rpubs.com/guptashilpa/964846}
+date: 2022-11-10
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+These slides were created to introduce Reading Apprenticeship Framework to faculty colleagues. 
+
+[Slides](https://rpubs.com/guptashilpa/964846)
+
