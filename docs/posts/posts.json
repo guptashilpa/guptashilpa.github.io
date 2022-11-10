@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2022-11-10-encouraging-students-to-read/",
+    "title": "Encouraging Students to Read",
+    "description": "Using Reading Apprenticeship framework to encourage students to deepen their learning by reading",
+    "author": [
+      {
+        "name": "Shilpa Gupta, Ph.D.",
+        "url": {
+          "https://rpubs.com/guptashilpa/964846": {}
+        }
+      }
+    ],
+    "date": "2022-11-10",
+    "categories": [],
+    "contents": "\nThese slides were created to introduce Reading Apprenticeship Framework to faculty colleagues.\nSlides\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-11-10T14:44:51-08:00",
+    "input_file": "encouraging-students-to-read.knit.md"
+  },
+  {
     "path": "posts/2021-11-01-aa-experiments/",
     "title": "Experience with Authentic Assessment in a Data Science Classroom",
     "description": "Data Science is the art of turning data into information. It attracts learners from various disciplines and different levels of fluency with statistical concepts. This paper describes the experience of using systems thinking to design assessments for a mixed skill classroom on data science foundations using approaches from student-centric pedagogies, such as equity grading, project based learning and authentic assessment. Both formative and summative assessments jointly provide experiential understanding of statistical concepts and result in building programming literacy skills and holistic understanding of a data analysis project. Further, leveraging student's agency and interest in their domains of choice by bringing their own data results in a more engaged learning environment. Unstructured assessments also have an unintended consequence of uncovering challenging aspects of the topics which would have been masked by structured problem solving. This feedback loop aids the instructor in creating more meaningful scaffolding assignments to make the learning deeper.",
