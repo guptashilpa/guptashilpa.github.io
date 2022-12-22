@@ -12,4 +12,4 @@ output:
 This course focuses on Artificial Intelligence software tools useful for industrial and systems engineering. It emphasizes clear understanding of the mathematics behind them, what tools to use in which conditions, and how to interpret and use the results. Prerequisite: Graduate standing; ISE 201 (or Equivalent) or instructor consent. 3 Units.
 
 
-**More Details Coming Soon!**
+[**SP22 Showcase**](https://docs.google.com/spreadsheets/d/1UWH_hOip5kQzOxRZ-Jk2_FGTn2gCKaL88RmdxUi3MU0/edit?usp=sharing)

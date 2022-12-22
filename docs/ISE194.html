@@ -785,6 +785,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1857,15 +1858,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2064,7 +2071,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2146,24 +2153,14 @@ Projects
 
 
 <div class="d-article">
-<p><strong>Welcome to the course ISE 194 Analytics Workshop
-website!</strong></p>
-<p>With explosion in the amount of data and computing capability, it has
-become imperative to have skills to turn that pieces of information into
-knowledge to make impactful decisions. In this course we will learn
-basics of data loading, wrangling, visualizing and analysis using R and
-Python for variety of real- world data. We will be only scratching the
-surface but my hope is that is enough to ignite your curiosity and drive
-to go forth and make impactful contributions to our society using these
-skills.</p>
+<p><strong>Welcome to the course ISE 194 Analytics Workshop website!</strong></p>
+<p>With explosion in the amount of data and computing capability, it has become imperative to have skills to turn that pieces of information into knowledge to make impactful decisions. In this course we will learn basics of data loading, wrangling, visualizing and analysis using R and Python for variety of real- world data. We will be only scratching the surface but my hope is that is enough to ignite your curiosity and drive to go forth and make impactful contributions to our society using these skills.</p>
 <h2 id="why-both-r-and-python">Why both R and Python</h2>
 <ul>
 <li>Being multilingual is good for cognition and job marketability</li>
 <li>Both are open source with active communities</li>
 <li>General Purpose vs {Build by and for Statisticians}</li>
-<li>Data Munging speed vs {ease of exploratory data analysis +
-statistical analysis + data visualization} (Note: though the gap is
-closing between the two rapidly)</li>
+<li>Data Munging speed vs {ease of exploratory data analysis + statistical analysis + data visualization} (Note: though the gap is closing between the two rapidly)</li>
 <li>R in python code → Rpy2 and Python in R code → reticulate</li>
 </ul>
 <h3 id="ides-used">IDEs used</h3>
@@ -2176,15 +2173,17 @@ closing between the two rapidly)</li>
 <p>numpy, pandas, matplotlib, dash, sqlite3</p>
 <p>In limited capacity: statsmodel, scipy</p>
 <h3 id="r">R</h3>
-<p>tidyverse, lubridate, ggplot2, rmarkdown, flexdashboard, sqlite,
-reticulate</p>
+<p>tidyverse, lubridate, ggplot2, rmarkdown, flexdashboard, sqlite, reticulate</p>
 <h2 id="additional">Additional</h2>
 <ul>
 <li>git and github</li>
 <li>deploy flexdashboard on shinyapps.io</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<h2 id="service-learning">Service Learning</h2>
+<p>ISE 194 Analytics Workshop course offered by the SJSU’s Industrial and Systems Engineering to its seniors was developed for students to learn problem solving using common programming languages. This course focuses on learning the syntax of common analytics programming languages and application to problems in industrial engineering, especially involving data to transform, analyze and visualize data to inform decisions. In Fall 2022, the course objective was expanded to include a service learning component with the belief that the skills learnt in the course to transform, analyze and visualize data were transferable to data collected by government and non-profit community organizations. This change was done on the belief that using our skills to create and sustain thriving communities is a hallmark of an engaged and active citizenry.</p>
+<p>In order to use data analysis skills for civic engagement, the students worked on data provided by the Direct Discharge Trash Control Program housed in the San Jose Environmental Services Division. During the semester, the students used their analytics skills and new data programming skills to perform analysis on the data provided and produced an analysis report as well as a dashboard on the trash collected from encampments in the years 2020-2022 in and around the San Jose area. The students then wrapped up the semester by reflecting on their experience working with “real world” dataset.</p>
+<p><a href="https://shilpagupta-sjsu.quarto.pub/ise-194-service-learning-portfolio/">Fall 2022 Service Learning Showcase</a></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

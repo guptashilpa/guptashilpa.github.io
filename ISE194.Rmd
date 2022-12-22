@@ -35,3 +35,13 @@ tidyverse, lubridate, ggplot2, rmarkdown, flexdashboard, sqlite, reticulate
 ## Additional
 * git and github
 * deploy flexdashboard on shinyapps.io
+
+## Service Learning
+ISE 194 Analytics Workshop course offered by the SJSU’s Industrial and Systems Engineering to its seniors was developed for students to learn problem solving using common programming languages. This course focuses on learning the syntax of common analytics programming languages and application to problems in industrial engineering, especially involving data to transform, analyze and visualize data to inform decisions. In Fall 2022, the course objective was expanded to include a service learning component with the belief that the skills learnt in the course to transform, analyze and visualize data were transferable to data collected by government and non-profit community organizations. This change was done on the belief that using our skills to create and sustain thriving communities is a hallmark of an engaged and active citizenry. 
+
+In order to use data analysis skills for civic engagement, the students worked on data provided by the Direct Discharge Trash Control Program housed in the San Jose Environmental Services Division. During the semester, the students used their analytics skills and new data programming skills to perform analysis on the data  provided and produced an analysis report as well as a dashboard on the trash collected from encampments in the years 2020-2022 in and around the San Jose area. The students then wrapped up the semester by reflecting on their experience working with “real world” dataset. 
+
+
+[Fall 2022 Service Learning Showcase](https://shilpagupta-sjsu.quarto.pub/ise-194-service-learning-portfolio/
+)
+

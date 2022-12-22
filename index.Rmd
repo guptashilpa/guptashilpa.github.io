@@ -14,6 +14,6 @@ output: postcards::trestles
  
 Engineers are problem solvers. I teach data science skills to engineers.
 
-Shilpa is a certified Mental Health First Aider. 
+I am a certified Mental Health First Aider. 
 
 Welcome to my [digital garden](https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/), where i explore my adventures in data science pedagogy.

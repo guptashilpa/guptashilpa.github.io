@@ -5,8 +5,6 @@ output:
 ---
 
 
-
-
 **Welcome to the course ISE 202 Design and Analysis of Engineering Experiments website!**
 
 Review of statistical inference and tests of hypotheses. Introduction to analysis of variance and covariance. Theory and applications of experimental designs for engineering problems. Random and systematic designs. Randomized blocks. Latin squares. Factorial and fractional factorial designs. Taguchi methods. Prerequisite: ISE 130.  
