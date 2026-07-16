@@ -7,25 +7,25 @@ output:
 **Courses Taught**
 
 [ISE 201: Math Foundations for Data Science and Decision Science](./ISE201.html)
-Fall 2020, Fall 2021, Spring 2022, Fall 2022, Spring 2023, Fall 2023, Spring 2024, Fall 2024
+FA20, FA21, SP22, FA22, SP23, FA23, SP24, FA24, SP25, FA25, SP26
 
 [ISE 194: Analytics Workshop](./ISE194.html)
-Spring 2020, Spring 2021, Spring 2022, Fall 2022, Spring 2023
+SP20, SP21, SP22, FA22, SP23
 
 [ISE 244: AI Tools and Processes](./ISE244.html)
-Spring 2022, Spring 2023, Spring 2024
+SP22, SP23, SP24, SP25, SP26
 
 [ISE 202: Design of Experiments](./ISE202.html)
-Summer 2022, Spring 2024
+SU22, SP24
 
 ISE 233: Operational Analytics
-Spring 2024
+SP24, SP25
 
 ISE 235: Quality Assurance and Reliability
-Fall 2024
+FA24
 
 ISE 205: Data Ethics
-Fall 2024
+FA24, FA25
 
 CMPE: Machine Learning
-Summer 2024
+SU24
