@@ -1,0 +1,19 @@
+---
+title: "ChatGPT and Data Science Classroom"
+description: |
+  Some thoughts on how advances in AI are going to affect teaching data science"
+author:
+  - name: Shilpa Gupta, Ph.D.
+    url: {https://rpubs.com/guptashilpa/964846}
+date: 2023-01-04
+draft: TRUE
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Chat.. What?
+
+That was the reaction of my 9 year old when he heard my partner and me talk about the latest Open AI offering. The large language model has created a buzz among technologist and educators alike. 
+
+Holiday gatherings were peppered with responses from ChatGPT and educators were mulling in the corner, how does that changes their class dynamics.

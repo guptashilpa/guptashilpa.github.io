@@ -6,10 +6,5 @@ output:
 
 ### About me
 
-Shilpa has 10+ years of experience as a data scientist in various companies in the San Francisco / Bay Area where she has solved some hard business problems, done innovative work and delivered customer-impacting solutions. Currently she is an Adjunct Professor of Industrial and Systems Engineering at San Jose State University. She is passionate about statistics / data science pedagogy and volunteers her time mentoring middle/high school girls through More Active Girls In Computing and AI4ALL. She holds a doctorate in Industrial Engineering (Applied Statistics with minor in Optimization).
+Shilpa Gupta is an award-winning engineering educator and former data science leader whose work focuses on applied AI, statistical engineering education, authentic assessment, and the responsible use of LLM-based tools in engineering curricula. 
 
-Shilpa is a certified Mental Health First Aider. 
-
-### Teaching
-
-*coming soon*

@@ -1,0 +1,7 @@
+---
+title: "extra"
+author: "Shilpa Gupta"
+date: "`r Sys.Date()`"
+output: html_document
+---
+Welcome to my [digital garden](https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/), where i explore my adventures in data science pedagogy.

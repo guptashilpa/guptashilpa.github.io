@@ -1,0 +1,19 @@
+---
+title: "Teaching Data Science - Best practices from the literature"
+description: |
+  Literature review of teaching best practices in data science
+author:
+  - name: Shilpa Gupta, Ph.D.
+    url: {https://rpubs.com/guptashilpa/964846}
+date: 2023-01-04
+draft: TRUE
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+## What is Data Science?
+
+Make the case that we can borrow from statistics pedagogy
+
+## 
